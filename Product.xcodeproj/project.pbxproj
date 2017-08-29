@@ -14,6 +14,9 @@
 		5B6588691F560654007B3429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6588681F560654007B3429 /* Assets.xcassets */; };
 		5B65886C1F560654007B3429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B65886A1F560654007B3429 /* LaunchScreen.storyboard */; };
 		5B6588771F560655007B3429 /* ProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6588761F560655007B3429 /* ProductTests.swift */; };
+		5B6588841F560693007B3429 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6588831F560693007B3429 /* ProductViewController.swift */; };
+		5B6588871F56070E007B3429 /* Product.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6588861F56070E007B3429 /* Product.storyboard */; };
+		5B6588891F560804007B3429 /* ARVisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6588881F560804007B3429 /* ARVisionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		5B6588721F560655007B3429 /* ProductTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6588761F560655007B3429 /* ProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTests.swift; sourceTree = "<group>"; };
 		5B6588781F560655007B3429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B6588831F560693007B3429 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		5B6588861F56070E007B3429 /* Product.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Product.storyboard; sourceTree = "<group>"; };
+		5B6588881F560804007B3429 /* ARVisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARVisionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +85,8 @@
 		5B65885E1F560654007B3429 /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				5B65885F1F560654007B3429 /* AppDelegate.swift */,
-				5B6588611F560654007B3429 /* art.scnassets */,
-				5B6588631F560654007B3429 /* ViewController.swift */,
-				5B6588651F560654007B3429 /* Main.storyboard */,
-				5B6588681F560654007B3429 /* Assets.xcassets */,
-				5B65886A1F560654007B3429 /* LaunchScreen.storyboard */,
-				5B65886D1F560654007B3429 /* Info.plist */,
+				5B6588821F56066D007B3429 /* Scenes */,
+				5B6588811F56065D007B3429 /* Supporting Files */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -97,6 +98,38 @@
 				5B6588781F560655007B3429 /* Info.plist */,
 			);
 			path = ProductTests;
+			sourceTree = "<group>";
+		};
+		5B6588811F56065D007B3429 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B65885F1F560654007B3429 /* AppDelegate.swift */,
+				5B6588611F560654007B3429 /* art.scnassets */,
+				5B6588681F560654007B3429 /* Assets.xcassets */,
+				5B65886A1F560654007B3429 /* LaunchScreen.storyboard */,
+				5B65886D1F560654007B3429 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B6588821F56066D007B3429 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5B6588851F5606B5007B3429 /* Main */,
+				5B6588631F560654007B3429 /* ViewController.swift */,
+				5B6588651F560654007B3429 /* Main.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5B6588851F5606B5007B3429 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5B6588861F56070E007B3429 /* Product.storyboard */,
+				5B6588831F560693007B3429 /* ProductViewController.swift */,
+				5B6588881F560804007B3429 /* ARVisionViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B6588621F560654007B3429 /* art.scnassets in Resources */,
+				5B6588871F56070E007B3429 /* Product.storyboard in Resources */,
 				5B65886C1F560654007B3429 /* LaunchScreen.storyboard in Resources */,
 				5B6588691F560654007B3429 /* Assets.xcassets in Resources */,
 				5B6588671F560654007B3429 /* Main.storyboard in Resources */,
@@ -201,6 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6588841F560693007B3429 /* ProductViewController.swift in Sources */,
+				5B6588891F560804007B3429 /* ARVisionViewController.swift in Sources */,
 				5B6588641F560654007B3429 /* ViewController.swift in Sources */,
 				5B6588601F560654007B3429 /* AppDelegate.swift in Sources */,
 			);
